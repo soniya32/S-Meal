@@ -9,7 +9,7 @@
         <h1 class="text-2xl font-bold">{{ meal.meals[0].strMeal }}</h1>
         <p>{{ meal.meals[0].strInstructions }}</p>
         <h1 class="text-xl text-red-500">Video Tutorial</h1>0-+
-        <a :href="meal.meals[0].strYoutube" target="blank"
+        <a :href="meal.meals[0].strYoutube" target="_blank"
         >How to make {{ meal.meals[0].strMeal }}</a>
     </div>
    </div>

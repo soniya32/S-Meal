@@ -13,7 +13,7 @@
             <option :value="category.strCategory" v-for="(category, index) in categoryData.categories" :key="index">{{category.strCategory }}</option>
             </select>
         </div>
-        <div class="cointainer ms-auto grid grid-cols-4 gap-4 m-3">
+        <div class="cointainer ms-auto grid lg:grid-cols-4 gap-4 m-3">
             <div v-for="(p, index) in data.meals" :key="index">
                 <nuxt-link :to="`products/${p.idMeal}`">
                     <product-component :product="p" />
